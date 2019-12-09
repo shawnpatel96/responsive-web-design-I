@@ -196,12 +196,29 @@ footer{
 .productimagetwo{
     width:50%;
 }
+/* CSS FOR MIN WIDTH PAGE */
 
 
-@media screen and (min-width: 800px) {
-    
-   
+
+
+/* media screen for min width */
+@media screen and (min-width: 500px) {
+   .visionbody{
+       background:red;
+   }
 }
+@media screen and (min-width: 800px) {
+    .visionbody{
+        background:green;
+    }
+ }
+ 
+ @media screen and (min-width: 1920px) {
+    .visionbody{
+        background:black;
+    }
+ }
+     
 	
 @media screen and (max-width: 800px) {
     .containerproduct .innovationproduct h1{
