@@ -1,3 +1,335 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* HEADER STYLE */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+  
+
+*{
+	
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+    max-width:100%;
+    
+}
+
+
+body{
+	margin: 0 auto;
+	width: 50%;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.img{
+    width:;
+}
+nav a{
+	
+	color: grey;
+	text-decoration: none;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+.innovation{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+	
+	
+	font-family: 'Bangers', cursive;
+	font-size: 75px ;
+	width: 20%;
+	text-align: center;
+	
+	
+
+	
+	
+}
+
+.getstarted{
+	font-size: 20px;
+	
+	
+	border: .5px solid black;
+	font-family: none;
+}
+
+
+
+
+.beforeimg{
+    display:flex;
+    justify-content: space-around;
+    padding: 3%;
+	border-top: 3px solid black;
+	margin-top: 2.5%;
+	
+}
+
+.features{
+    width: 40%;
+	
+	
+}
+.about{
+	width:40%;
+}
+
+.imagethree{
+	display: flex;
+    justify-content: center;
+}
+
+.afterimage{
+    border-bottom: 2px solid black;
+    padding: 3%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.address{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    
+}
+
+
+footer{
+	text-align: center;
+}
+
+/* product CSS */
+
+.containerproduct{
+    
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+
+.productbody{
+    background:black;
+    color:white;
+}
+.innovationproduct{
+  
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+	
+	
+	font-family: 'Bangers', cursive;
+	font-size: 75px ;
+	width: 20%;
+	text-align: center;
+}
+
+.getstartedproduct{
+	font-size: 20px;
+	
+	
+	border: .5px solid white;
+	font-family: none;
+}
+.productimagetwo{
+    width:50%;
+}
+/* CSS FOR MIN WIDTH PAGE */
+
+
+
+
+/* media screen for min width */
+@media screen and (min-width: 500px) {
+   .visionbody{
+       background:red;
+   }
+}
+@media screen and (min-width: 800px) {
+    .visionbody{
+        background:green;
+    }
+ }
+ 
+ @media screen and (min-width: 1920px) {
+    .visionbody{
+        background:black;
+    }
+ }
+     
+	
+@media screen and (max-width: 800px) {
+    .containerproduct .innovationproduct h1{
+        color:red;
+    }
+    .containerproduct{
+        display:flex;
+        flex-direction: column;
+        
+        text-align: center;
+    }
+    .productimagetwo{
+    
+        
+        width:100%;
+    }
+    body{
+        width:100%;
+    }
+   
+    .innovation{
+        width: 50%;
+        padding:5%;
+        
+    }
+   .imagetwo{
+       display:none;
+   }
+   .innovationproduct{
+       
+   }
+   
+}
+@media screen and (max-width: 500px) {
+    .img{
+        text-align: center;
+        width:50%;
+        margin-left: 25%;
+    }
+    a{
+        padding:3%;
+       
+        border-bottom:1px solid grey;
+    }
+   nav{
+       flex-direction: column-reverse;
+       text-align: center;
+    
+
+   }
+   .innovation{
+       padding:10%;
+       width:100%;
+       
+   }
+   .beforeimg{
+       
+       flex-direction: column;
+       
+    }
+    .features{
+      width:100%;
+      padding:2.5%;
+    }
+    .about{
+        width:100%;
+        padding:2.5%;
+    }
+    .imagethree{
+        padding: 5%;
+    }
+    .afterimage{
+        flex-direction: column;
+    }
+    .services{
+        padding: 3%
+    }
+    .product{
+        padding: 3%
+    }
+    .vison{
+        padding: 3%
+    }
+    .address{
+        width:40%;
+        
+    }
+    .address h2{
+        padding:5%;
+    }
+    .address p{
+        padding:5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
